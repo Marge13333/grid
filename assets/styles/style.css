@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 1440px;
+	width: 100%;
+	margin: auto;
+	padding: 0 15px;
+}
+.grid-section{
+    background-color: darkblue;
+    padding: 100px 105px;
+}
+.conteiner-grid {
+	display: grid;
+	gap: 20px;
+	column-gap: 10px;
+	row-gap: 10px;
+	grid-auto-rows: minmax(150px, auto);
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+	grid-template-areas: 
+    "lorem culpa oficia oficia "
+    "lorem mollit mollit fugiat"
+    "exercitation magna laboris fugiat "
+    "ulamco ulamco laboris consectetur "
+    "paratur dolore dolore exepteur"
+    ;
+		
+}
+.card-1,.card-2,.card-3,.card-4,.card-5,.card-6,.card-7,.card-8,.card-9,.card-10,.card-11,.card-12,.card-13{
+    background-color: rgb(255, 255, 255);
+	font-size: 24px;
+	color: darkblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.card-1{
+    grid-area: lorem; 
+}
+.card-2{
+    grid-area: culpa;
+}
+.card-3{
+    grid-area: oficia;
+}
+.card-4{
+    grid-area: mollit;
+}
+.card-5{
+    grid-area: fugiat;
+}
+.card-6{
+    grid-area: exercitation;
+}
+.card-7{
+    grid-area:magna ;
+}
+.card-8{
+    grid-area:ulamco ;
+}
+.card-9{
+    grid-area:laboris ;
+}
+.card-10{
+    grid-area:consectetur;
+}
+.card-11{
+    grid-area:paratur;
+}
+.card-12{
+    grid-area:dolore;
+}
+.card-13{
+    grid-area:exepteur;
+}
+    
